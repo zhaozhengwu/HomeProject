@@ -3,7 +3,7 @@
     package="com.example.muheda.home_module">
 
     <application>
-        <activity android:name=".view.Activity.MainActivity" />
+        <activity android:name=".view.Activity.HomeMainActivity" />
         <activity android:name=".view.Activity.Main2Activity"></activity>
     </application>
 
