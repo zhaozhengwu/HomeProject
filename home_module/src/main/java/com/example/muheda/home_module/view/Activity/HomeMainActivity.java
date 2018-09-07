@@ -21,5 +21,6 @@ public class HomeMainActivity extends AppCompatActivity {
                 IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
             }
         });
+        //更新版本4.0
     }
 }
