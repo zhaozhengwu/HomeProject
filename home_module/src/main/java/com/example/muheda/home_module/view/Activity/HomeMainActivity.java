@@ -18,7 +18,7 @@ public class HomeMainActivity extends AppCompatActivity {
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
+                //IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
             }
         });
         //更新版本4.0
