@@ -22,7 +22,7 @@ public class HomeMainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
                 tv.setText("6.0.1");
-                ARouter.getInstance().build("/me/one").navigation();
+                ARouter.getInstance().build("/m/one").navigation();
 
             }
         });
