@@ -9,5 +9,5 @@
     android:id="@+id/tv"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="home_module"/>
+    android:text="home_module——4.0"/>
 </android.support.constraint.ConstraintLayout>
