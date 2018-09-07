@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.muheda.base_module.Utils.IntentToActivity;
 import com.example.muheda.home_module.R;
-
+@Route(path="/me/home")
 public class HomeMainActivity extends AppCompatActivity {
     private TextView tv;
     @Override
@@ -20,6 +22,8 @@ public class HomeMainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
                 tv.setText("6.0.1");
+                ARouter.getInstance().build("/me/one").navigation();
+
             }
         });
         //更新版本4.0
