@@ -19,6 +19,7 @@ public class HomeMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //IntentToActivity.skipToActivity(HomeMainActivity.this,Main2Activity.class);
+                tv.setText("6.0.1");
             }
         });
         //更新版本4.0
